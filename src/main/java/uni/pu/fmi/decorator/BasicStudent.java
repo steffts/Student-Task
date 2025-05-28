@@ -8,7 +8,7 @@ public class BasicStudent extends Student {
     }
 
     public void perform() {
-        System.out.println("Работи по задачата използвайки:");
+        System.out.println("Работи по задачата чрез:");
     }
 }
 
