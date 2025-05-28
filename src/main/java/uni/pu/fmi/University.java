@@ -16,7 +16,7 @@ public class University {
         return instance;
     }
 
-    public void conductExam(Student student) {
+    public void Exam(Student student) {
         System.out.println("Студентът пристигна чрез: ");
         student.arrive();
         Task task = TaskFactory.createTask(student.getType());
